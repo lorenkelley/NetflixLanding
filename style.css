@@ -1,4 +1,4 @@
-/* Global Styles */
+/* All pages */
 :root {
 	--primary-color: #e50914;
 	--dark-color: #141414;
@@ -60,29 +60,33 @@ img {
 	box-shadow: inset 120px 100px 250px #000000, inset -120px -100px 250px #000000;
 }
 
-.showcase-top {
+
+
+
+.s-top {
 	position: relative;
 	z-index: 2;
 	height: 90px;
+	
 }
 
-.showcase-top img {
-	width: 170px;
+.s-top img {
+	width: 190px;
 	position: absolute;
 	top: 50%;
-	left: 50%;
+	left: 8%;
 	transform: translate(-50%, -50%);
 	margin-left: 0;
 }
 
-.showcase-top a {
+.s-top a {
 	position: absolute;
 	top: 50%;
 	right: 0;
 	transform: translate(-50%, -50%);
 }
 
-.showcase-content {
+.s-content {
 	position: relative;
 	z-index: 2;
 	width: 65%;
@@ -95,14 +99,14 @@ img {
 	margin-top: 9rem;
 }
 
-.showcase-content h1 {
+.s-content h1 {
 	font-weight: 700;
 	font-size: 5.2rem;
 	line-height: 1.1;
 	margin: 0 0 2rem;
 }
 
-.showcase-content p {
+.s-content p {
 	text-transform: uppercase;
 	color: #fff;
 	font-weight: 400;
