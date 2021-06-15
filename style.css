@@ -118,8 +118,7 @@ img {
 /* Tabs */
 .tabs {
 	background: var(--dark-color);
-	padding-top: 1rem;
-	border-bottom: 3px solid #3d3d3d;
+	border-bottom: 3px solid #3b3b3b;
 	border-right: none;
 }
 
@@ -214,7 +213,7 @@ img {
 }
 
 .table tbody tr td {
-	color: #999;
+	color: rgb(112, 112, 112);
 	padding: 0.8rem 1.2rem;
 	text-align: center;
 }
@@ -235,7 +234,7 @@ img {
 
 .footer,
 .footer a {
-	color: #999;
+	color: rgb(112, 112, 112);
 	font-size: 0.9rem;
 }
 
@@ -255,7 +254,7 @@ img {
 
 .footer .lang-select {
 	margin-top: 2rem;
-	color: #999;
+	color: rgb(112, 112, 112);
 	background-color: #000;
 	background-image: none;
 	border: 1px solid #333;
@@ -291,7 +290,7 @@ img {
 }
 
 .text-dark {
-	color: #999;
+	color: rgb(112, 112, 112);
 }
 
 /* Buttons */
@@ -300,13 +299,11 @@ img {
 	background: var(--primary-color);
 	color: #fff;
 	padding: 0.4rem 1.3rem;
-	font-size: 1rem;
 	text-align: center;
-	border: none;
+	
 	cursor: pointer;
 	margin-right: 0.5rem;
 	transition: opacity 0.2s ease-in;
-	outline: none;
 	box-shadow: 0 1px 0 rgba(0, 0, 0, 0.45);
 	border-radius: 2px;
 }
@@ -317,6 +314,7 @@ img {
 
 .button-rounded {
 	border-radius: 5px;
+	
 }
 
 .button-xl {
