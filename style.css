@@ -194,6 +194,10 @@ img {
 	text-align: center;
 }
 
+.bright{
+	margin-top: 47px;
+}
+
 .table {
 	width: 100%;
 	margin-top: 2rem;
@@ -294,13 +298,12 @@ img {
 }
 
 /* Buttons */
-.button {
+.btn {
 	display: inline-block;
 	background: var(--primary-color);
 	color: #fff;
 	padding: 0.4rem 1.3rem;
 	text-align: center;
-	
 	cursor: pointer;
 	margin-right: 0.5rem;
 	transition: opacity 0.2s ease-in;
@@ -308,28 +311,28 @@ img {
 	border-radius: 2px;
 }
 
-.button:hover {
+.btn:hover {
 	opacity: 0.9;
 }
 
-.button-rounded {
+.btn-rounded {
 	border-radius: 5px;
 	
 }
 
-.button-xl {
+.btn-xl {
 	font-size: 2rem;
 	padding: 1.5rem 2.1rem;
 	text-transform: uppercase;
 }
 
-.button-lg {
+.btn-lg {
 	font-size: 1rem;
 	padding: 0.8rem 1.3rem;
 	text-transform: uppercase;
 }
 
-.button-icon {
+.btn-icon {
 	margin-left: 1rem;
 }
 
@@ -362,7 +365,7 @@ img {
 		grid-template-columns: repeat(2, 1fr);
 	}
 
-	.button-xl {
+	.btn-xl {
 		font-size: 1.5rem;
 		padding: 1.4rem 2rem;
 		text-transform: uppercase;
@@ -416,7 +419,7 @@ img {
 		text-align: center;
 	}
 
-	.button-xl {
+	.btn-xl {
 		font-size: 1rem;
 		padding: 1.2rem 1.6rem;
 		text-transform: uppercase;
